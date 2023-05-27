@@ -1,0 +1,2 @@
+# FAKE-MOZILLA
+Fake mozilla
