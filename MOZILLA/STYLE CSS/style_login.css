@@ -1,0 +1,83 @@
+body {
+    font-family: "Comic Sans MS";
+    background-image: url(../IMAGENES/login_mozilla.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: gray;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 100);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: red;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.opciones a {
+    color: #333;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+}
+
+.registrar a {
+    color: #333;
+    text-decoration: none;
+}
+
+.registrar a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#boton_ingresar {
+    text-align: center;
+}
+
+#r {
+    text-align: center;
+}

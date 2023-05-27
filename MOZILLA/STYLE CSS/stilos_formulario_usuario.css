@@ -1,0 +1,95 @@
+body {
+    background-image: url(../IMAGENES/form2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Estilos para el formulario */
+
+form {
+    font-family: "Comic Sans MS";
+    max-width: 500px;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid black;
+    background-color: orangered;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+
+/* Estilos para las etiquetas */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* Estilos para los campos de entrada */
+
+input[type="text"],
+input[type="email"],
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para el botón de enviar */
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: chartreuse;
+}
+
+
+/* Estilos para el botón de eliminar */
+
+input[type="reset"] {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: crimson;
+}
+
+
+/* Estilos para los checkboxes */
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.principal {
+    text-align: center;
+    color: #fff;
+    font-family: "Comic Sans MS";
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}

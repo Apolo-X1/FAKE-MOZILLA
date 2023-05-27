@@ -1,0 +1,133 @@
+body {
+    font-family: "Comic Sans MS";
+    background-image: url(../IMAGENES/home3.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+.button_style1 button {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    border-radius: 20px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(198, 31, 31);
+    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+
+
+/* menu responsive */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active,
+li a:hover {
+    background: #000090;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+section {
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    li a:hover,
+    li a.active {
+        background: none;
+        color: red;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}

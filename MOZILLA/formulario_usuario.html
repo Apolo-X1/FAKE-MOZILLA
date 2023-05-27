@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de registro</title>
+
+    <link rel="stylesheet" href="../MOZILLA/STYLE CSS/stilos_formulario_usuario.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1467/1467445.png">
+
+  </head>
+
+  <body>
+    <br><br><br>
+    <h1 class="principal">Formulario de registro</h1>
+
+    <form>
+      <label for="nombres">Nombres:</label>
+      <input type="text" id="nombres" name="nombres"><br><br>
+
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos"><br><br>
+
+      <label for="sexo">Sexo:</label>
+      <select id="sexo" name="sexo">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+
+      </select><br><br>
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo"><br><br>
+
+      <label for="poblacion">Tipo de población:</label>
+      <select id="poblacion" name="poblacion">
+        <option value="urbana">Urbana</option>
+        <option value="rural">Rural</option>
+        <option value="otro">Otro</option>
+
+      </select><br><br>
+      <label for="otra_poblacion">Si seleccionó "Otro", especifique:</label>
+      <input type="text" id="otra_poblacion" name="otra_poblacion"><br><br>
+
+      <label for="informacion">Deseo recibir información sobre novedades y ofertas:</label>
+      <input type="checkbox" id="informacion" name="informacion" value="si"><br><br>
+
+      <label for="condiciones">Declaro haber leído y aceptado las condiciones generales del programa y dicha normativa:</label>
+      <input type="checkbox" id="condiciones" name="condiciones" value="si"><br><br>
+
+      <input type="submit" value="Enviar">
+
+      <input type="reset" value="Eliminar información">
+    </form>
+
+  </body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inicio de sesión</title>
+
+    <link rel="stylesheet" type="text/css" href="STYLE CSS/style_login.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/295/295128.png">
+
+    <script src="./JS EFECT/script_home.js"></script>
+</head>
+
+<body>
+
+
+    <br><br><br><br><br><br>
+    <h1>Inicio de sesión</h1>
+
+    <form action="home.html" method="post">
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contraseña" required>
+        </div>
+        <div class="opciones">
+            <label for="mantener_sesion"><input type="checkbox" id="mantener_sesion" name="mantener_sesion"> Mantener sesión</label>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+
+        <div id="r">
+            <div class="registrar">
+                <a href="#">Registrarme</a><br>
+            </div>
+        </div>
+
+        <br>
+        <div id="boton_ingresar">
+            <button type="submit">Ingresar</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

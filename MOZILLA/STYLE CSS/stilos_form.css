@@ -1,0 +1,60 @@
+body {
+  background-image: url(../IMAGENES/form2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* Estilos para el formulario */
+form {
+    font-family: "Comic Sans MS";
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: orangered;
+    border-radius: 20px;
+    opacity: 0.7;
+  }
+  
+  input[type=text],
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=radio] {
+    margin: 8px 0;
+    display: inline-block;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  input[type=checkbox] {
+    margin: 8px 0;
+  }
+  
+  button[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
